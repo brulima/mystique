@@ -1,0 +1,12 @@
+Missões: 
+1. Taguear um menu fácil com title
+2. Taguear um menu bagunçado
+3. Taguear um menu feito com imagens, sem id e sem title e sem text usando a url
+4. Buscar informações dos titulos a que o botão pertence
+5. Taguear com disparo único
+6. Fazer um contador de disparos
+7. Taguear um formulário
+8. Taguear um formulário com track de erro
+9. Disparar após 5s do usuário na página
+10. Taguear o scroll da página
+11. Taguear botões em páginas diferentes usando cookies

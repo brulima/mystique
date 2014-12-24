@@ -1,0 +1,49 @@
+@font-face {
+	font-family: Gotham;
+	src: url(../font/gotham.ttf);
+}
+body {
+	background-image: url(../img/mystique_background_ps.png);
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-color:  rgb(0, 3, 24);
+	margin-left: 45%;
+	margin-right: 5%;
+	font-family: Gotham, Calibri, sans-serif;
+	color: rgb(194, 214, 238);
+	display: inline-table;
+	width: 50%;
+}
+.content .principal-header h1 {
+	font-size: 4.5em;
+	margin-bottom: 1%;
+}
+.content .principal-header h2 {
+	margin-top: 0%;
+	font-size: 1.6em;
+}
+.content .principal-header .menu ul {
+	display: inline-table;
+	width: 100%;
+	padding-left: 0;
+}
+.content .principal-header .menu ul,
+.content .page-content .missoes ol {
+	padding-left: 0;
+}
+li {
+	list-style: none;
+}
+.content .principal-header .menu li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 2% 0;
+	background-color: brown;
+}
+.content .principal-header .menu li a {
+	text-decoration: none;
+	font-family: Gotham, Calibri, sans-serif;
+	color: white;
+	font-size: 1.2em;
+}
