@@ -22,28 +22,44 @@ body {
 	margin-top: 0%;
 	font-size: 1.6em;
 }
-.content .principal-header .menu ul {
+.content .page-content .missoes ul,
+.content .menu ul {
+	padding-left: 0;
 	display: inline-table;
 	width: 100%;
-	padding-left: 0;
 }
-.content .principal-header .menu ul,
-.content .page-content .missoes ol {
-	padding-left: 0;
+.content .page-content .missoes ul li,
+.content .page-content .menu ul li {
+	float: left;
+	width: 24.25%;
+	margin: 0 1% 1% 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 2% 0;
+	text-align: center;
 }
+.content .page-content .missoes ul li.last-column,
+.content .page-content .menu ul li.last-column {
+	margin: 0 0 1% 0;
+}
+
 li {
 	list-style: none;
 }
-.content .principal-header .menu li {
-	float: left;
-	width: 25%;
+.content .page-content header h1 {
+	margin-top: 5.5%;
 	text-align: center;
-	padding: 2% 0;
+	padding: 1.5% 0;
 	background-color: brown;
 }
-.content .principal-header .menu li a {
+a {
 	text-decoration: none;
-	font-family: Gotham, Calibri, sans-serif;
-	color: white;
+	color: rgb(194, 214, 238);
+}
+a:visited {
+	color: rgb(194, 214, 238);
+}
+.content .menu li a {
+	text-decoration: none;
+	culor: white;
 	font-size: 1.2em;
 }
