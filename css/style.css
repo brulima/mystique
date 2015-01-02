@@ -58,6 +58,9 @@ li {
 .content .page-content .menu.menu-3 ul li {
 	padding: 0 0;
 }
+.content .page-content .menu.menu-3 img {
+	width: 100%;
+}
 .content .page-content .missoes ul li.last-column,
 .content .page-content .menu ul li.last-column {
 	margin: 0 0 1% 0;
