@@ -10,3 +10,4 @@ Missões:
 9. Disparar após 5s do usuário na página
 10. Taguear o scroll da página
 11. Taguear botões em páginas diferentes usando cookies
+12. Simular uma situação que quebre a parametrização do GA
