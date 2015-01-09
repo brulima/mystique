@@ -22,33 +22,38 @@
 			<article>
 				<p>Você precisa taguear os campos do formulário usando o <a href="">mapa de métricas</a>.
 				<article class="form">
-				  <form action="#">
-				    <fieldset> 
-				      <legend>Campo 3</legend>
-				      <input type="text" name="campo-1" />
-				    </fieldset>
-				    <fieldset> 
-				    	<legend>Campo 2</legend>
-				    	Valor 1: <input type="checkbox" name="campo-2" value="value-1"/>
-				    	Valor 2: <input type="checkbox" name="campo-2" value="value-2"/>
-				    	Valor 3: <input type="checkbox" name="campo-2" value="value-3"/>
-				    </fieldset>
-				    <fieldset> 
-				      <legend>Campo 3</legend>
-				      Valor 1: <input type="radio" name="campo-3" value="value-1"/>
-				      Valor 2: <input type="radio" name="campo-3" value="value-2"/>
-				      Valor 3: <input type="radio" name="campo-3" value="value-3"/>
-				    </fieldset>
-				    <fieldset> 
-				    	<legend>Campo 4</legend>
-				    	<select>
-				      	   <option>Valor 1</option>
-					   <option>Valor 2</option>
-					   <option>Valor 3</option>
-					   <option>Valor 4</option>
-					   <option>Valor 5</option>
-					</select>
-				      </fieldset>
+					<div id="error">
+					</div>
+					<form action="#" onsubmit="return validar(this)">
+					<fieldset> 
+					  <legend>Campo 1</legend>
+					  <input type="text" name="campo1" />
+					</fieldset>
+					<fieldset> 
+						<legend>Campo 2</legend>
+						Valor 1: <input type="checkbox" name="campo21" value="value-1"/>
+						Valor 2: <input type="checkbox" name="campo22" value="value-2"/>
+					</fieldset>
+					<fieldset> 
+					  <legend>Campo 3</legend>
+					  Valor 1: <input type="radio" name="campo3" value="value-1"/>
+					  Valor 2: <input type="radio" name="campo3" value="value-2"/>
+					  Valor 3: <input type="radio" name="campo3" value="value-3"/>
+					</fieldset>
+					<fieldset> 
+						<legend>Campo 4</legend>
+						<select name="campo4">
+							<option></option>
+						    <option>Valor 1</option>
+							<option>Valor 2</option>
+							<option>Valor 3</option>
+							<option>Valor 4</option>
+							<option>Valor 5</option>
+						</select>
+					</fieldset>
+					<div class="submit-div">
+						<input class="submit" type="submit" value="Enviar" />
+					</div>
 				  </form>
 				</article>  
 			</article>
@@ -57,5 +62,6 @@
 			</footer>
 		</section>
 	</div>
+	<script type="text/javascript" src="js/validar.js"></script>
 </body>
 </html>
